@@ -7,6 +7,7 @@
     <SkillsSchooling />
     <Softskills />
     <Hobbies />
+    <Link />
     <Footer />
   </div>
 </template>
@@ -14,6 +15,7 @@
 <script>
   import Header from '@/components/Header.vue'
   import About from '@/components/About.vue'
+  import Link from '@/components/Link.vue'
   import Banner from '@/components/Banner.vue'
   import SkillsSchooling from '@/components/SkillsSchooling.vue'
   import Softskills from '@/components/Softskills.vue'
@@ -30,6 +32,7 @@
     components: {
       Header,
       About,
+      Link,
       Banner,
       SkillsSchooling,
       Softskills,

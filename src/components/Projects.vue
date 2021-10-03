@@ -18,7 +18,7 @@
                 projects: [
                     {
                     title: "Frontend d'un site e-commerce",
-                    image: "fond.webp",
+                    image: "orinoco.svg",
                     sumup: "Site e-commerce réaliser durant mes études, en HTML, SCSS, et JS. Les informations venant d'une API"
                 },
                 {
@@ -38,7 +38,7 @@
                 },
                 {
                     title: "Systeme de messagerie interne",
-                    image: "fond.webp",
+                    image: "groupomania.svg",
                     sumup: "Création du front et du back d'un systeme de messagerie interne avec envoie de text et images sous forme de forum"
                 },
                 {
@@ -47,18 +47,8 @@
                     sumup: "Réalisation de mon CV/Portfolio pour vous faire découvrire qui je suis, ce que je fait, et ce que j'ai fait "
                 },
                 {
-                    title: "Refonte de site web",
-                    image: "fond.webp",
-                    sumup: "Refonte d'un site web pour la partie agenda d'un site d'art dans le cadre mes études"
-                },
-                {
-                    title: "Design d'application",
-                    image: "fondtest.jpg",
-                    sumup: "Réalisation du design de l'application pour la rencontre des photographe d'Arle"
-                },
-                {
                     title: "Création d'une API sécurisée",
-                    image: "fond.webp",
+                    image: "sopecoko.svg",
                     sumup: "Création d'une API sécurisée avec MongoDB et NodeJS pour un site d'avis gastronomique durant mes études"
                 },
                 {
