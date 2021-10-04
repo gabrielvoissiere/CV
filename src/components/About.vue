@@ -47,11 +47,24 @@
         margin-bottom: 5vh;
         margin-top: 5vh;
 
+        @media screen and (max-width: 475px) {
+            flex-direction: column;
+        }
+
+        @media screen and (min-width: 475px) and (max-width: 1030px) {
+            width: 85vw;
+        }
+
         img {
             width: 35%;
             height: 50vh;
             object-fit: cover;
             box-shadow: -4px 4px 0px #42b983;
+
+            @media screen and (max-width: 475px) {
+                width: 100%;
+                height: 40vh;
+            }
         }
 
         p {
@@ -60,6 +73,16 @@
             font-size: 1.25rem;
             padding-bottom: 4vh;
             border-bottom: 3px solid #42b983;
+
+            @media screen and (max-width: 475px) {
+                width: 100%;
+                margin-top: 2vh;
+                text-align: justify;
+            }
+
+            @media screen and (min-width: 475px) and (max-width: 1030px) {
+                display: 70%;
+            }
 
             span {
                 color: #42b983;

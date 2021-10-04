@@ -1,5 +1,5 @@
 <template>
-    <div id="hobbies">
+    <div id="softskills">
        <h2>QUALITES PERSONNELLES</h2>
        <div v-for="item in softskills" :key="item">
            <p>• {{ item }}</p>
@@ -21,8 +21,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#hobbies {
+#softskills {
     width: 70vw;
+
+        @media screen and (max-width: 475px) {
+            width: 85vw;
+        }
     
     h2 {
         font-size: 3rem;
@@ -32,6 +36,10 @@ export default {
         text-align: left;
         border-bottom: 3px solid #42b983;
         text-shadow: -4px 4px 0px #42b983;
+
+        @media screen and (max-width: 475px) {
+            font-size: 4vh;
+        }
     }
 
     div {

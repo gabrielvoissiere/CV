@@ -27,10 +27,19 @@
         border-top: 3px solid #42b983;
         margin-top: 4vh;
 
+        @media screen and (max-width: 475px) {
+            width: 85vw;
+        }
+
         #link {
             width: 25%;
             display: flex;
             margin-top: 4vh;
+
+        @media screen and (max-width: 475px) {
+            width: 100%;
+            justify-content: space-between;
+        }
 
             a {
                 color: white;
@@ -40,34 +49,35 @@
                 padding: 1vh 2vh;
                 border-radius: 10px;
                 font-weight: 500;
+                margin-right: 2vh;
+
+                @media screen and (max-width: 475px) {
+                    margin: 0;
+                }
 
                 &#linkedin {
                     background-color: #036EAA;
 
-                &:hover {
-                    box-shadow: -2px 2px 0 #034164;
-                }
+                    &:hover {
+                        box-shadow: -2px 2px 0 #034164;
+                    }
                 }
 
                 &#github {
                     background-color: black;
 
-                &:hover {
-                    box-shadow: -2px 2px 0 rgb(54, 54, 54);
-                }
+                    &:hover {
+                        box-shadow: -2px 2px 0 rgb(54, 54, 54);
+                    }
                 }
 
                 &#malt {
                     background-color: #F25753;
 
-                &:hover {
-                    box-shadow: -2px 2px 0 #86332e;
+                    &:hover {
+                        box-shadow: -2px 2px 0 #86332e;
+                    }
                 }
-                }
-            }
-
-            a {
-                margin-right: 2vh;
             }
         }
     }

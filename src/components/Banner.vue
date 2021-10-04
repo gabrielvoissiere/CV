@@ -13,7 +13,7 @@ export default {
 
 <style lang="scss" scoped>
     #language {
-        width: 100%;
+        width: 100vw;
         height: 35vh;
         position: relative;
 

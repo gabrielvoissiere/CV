@@ -85,16 +85,34 @@
         margin-bottom: 2vh;
         text-align: left;
         text-shadow: -4px 4px 0px #42b983;
+
+        @media screen and (max-width: 475px) {
+            font-size: 4vh;
+            text-align: center;
+        }
+
+        @media screen and (min-width: 475px) and (max-width: 1039px) {
+            font-size: 5vh;
+        }
     }
 
     #skills {
         width: 70vw;
         display: flex;
         justify-content: space-between;
+
+        @media screen and (max-width: 475px) {
+            flex-direction: column;
+            width: 85vw;
+        }
     }
 
     #cursus {
         width: 45%;
+
+        @media screen and (max-width: 475px) {
+            width: 100%;
+        }
 
         .cursus-block {
             display: flex;
@@ -125,9 +143,22 @@
         flex-direction: column;
         align-items: flex-end;
 
+        @media screen and (max-width: 475px) {
+            width: 100%;
+        }
+
         .block {
             margin-bottom: 4vh;
             width: 50%;
+
+        @media screen and (max-width: 475px) {
+            width: 100%;
+        }
+
+            @media screen and (min-width: 475px) and (max-width: 1039px) {
+                width: 50%;
+                margin-right: 5vh;
+            }
 
             h3 {
                 margin-bottom: 1vh;

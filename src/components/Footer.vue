@@ -59,6 +59,11 @@
             align-items: center;
             justify-content: space-between;
 
+            @media screen and (max-width: 475px) {
+                flex-direction: column;
+                width: 85vw;
+            }
+
             #contact {
                 height: 100%;
                 display: flex;
@@ -79,6 +84,10 @@
                 a {
                     font-size: 1.2rem;
                     margin: 2px 0;
+
+                    @media screen and (max-width: 475px) {
+                        font-size: 1.5rem;
+                    }
                 }
 
                 #link {
@@ -100,6 +109,13 @@
                     a {
                         margin-right: 2vh;
                     }
+                }
+            }
+
+            @media screen and (max-width: 475px) {
+                p {
+                    width: 100%;
+                    margin-bottom: 2Vh;
                 }
             }
         }

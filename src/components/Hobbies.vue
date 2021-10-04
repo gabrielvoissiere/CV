@@ -36,6 +36,10 @@ export default {
 <style lang="scss" scoped>
 #hobbies {
     width: 70vw;
+
+        @media screen and (max-width: 475px) {
+            width: 85vw;
+        }
     
     h2 {
         font-size: 3rem;
@@ -45,6 +49,10 @@ export default {
         text-align: left;
         border-bottom: 3px solid #42b983;
         text-shadow: -4px 4px 0px #42b983;
+
+        @media screen and (max-width: 475px) {
+            font-size: 4vh;
+        }
     }
 
     div {
@@ -52,9 +60,19 @@ export default {
         align-items: flex-end;
         margin-bottom: 1vh;
 
+        @media screen and (max-width: 475px) {
+            flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        }
+
         p {
             margin-left: 1vh;
             font-size: 1.2rem;
+
+        @media screen and (max-width: 475px) {
+            word-wrap: break-all;
+        }
         }
     }
 }

@@ -34,36 +34,59 @@
     padding-top: 2vh;
     background-color: white;
 
+    @media screen and (max-width: 475px) {
+      flex-direction: column;
+    }
+
     #title {
       margin-left: 15vh;
       text-align: left;
 
+      @media screen and (max-width: 475px) {
+        margin-left: 0;
+      }
+
       h1 {
-        font-size: 2rem;
+        font-size: 5vh;
         font-weight: 500;
+
+        @media screen and (max-width: 475px) {
+          text-align: center;
+        }
       }
 
       h2 {
-        font-size: 3.75rem;
+        font-size: 6vh;
         font-weight: 600;
         text-shadow: -3px 3px 0px #42b983;
+
+        @media screen and (max-width: 475px) {
+          font-size: 5vh;
+          text-align: center;
+        }
       }
     }
 
     nav {
-      width: 18%;
+      width: 30vw;
       height: auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
       margin-right: 15vh;
 
+      @media screen and (max-width: 475px) {
+        width: 90%;
+        margin-right: 0;
+        margin-top: 2vh;
+      }
+
       a {
         color: #42b983;
         font-weight: 600;
         text-decoration: none;
         transition: 200ms ease-in-out;
-        font-size: 1.25rem;
+        font-size: 2.5vh;
 
         &:hover {
           color: black;
